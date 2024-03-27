@@ -1,0 +1,380 @@
+body{
+    margin: 0;
+}
+div.nav{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 0;
+   
+}
+div{
+    margin: 0px;
+    display: flex;
+    
+}
+.nav1{
+width: 60%;
+margin-left: 20px;
+color: #fff;
+}
+.nav2{
+    width: 75%;
+    text-align: right;
+    margin-left: 340px;
+    padding: 0;
+}
+.nav2 li {
+    list-style-type: none;
+    text-decoration-line: none;
+    display: block;
+    margin: 50px 0px 0px 50px;
+    padding-bottom: 2px;
+    display: inline;
+    padding-right: 0;
+
+    }
+
+.nav2 a{
+     padding-top: 40px;
+    text-decoration: none;
+    color: #fff;
+}    
+.nav2 li:hover{
+    border-bottom: 5px solid;
+    border-radius: 2px;
+    border-color: red;
+    border-width: 4px;
+    text-decoration: solid;
+}
+
+.img{
+    margin: 25px 0px 0px 10px;
+    width: 7%;
+}
+ul{
+    padding-top:10px;
+}
+
+.background1{
+    background-image: url(images/hero-bg.jpg);
+    position: relative;
+    width: auto;
+    height: 700px;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+.sliderbox{
+    position: absolute;
+    top: 13%;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 500px;
+}
+
+ .m1{
+    
+    display: block;
+    text-align: center;
+    font-size: 120%;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    
+}
+.m1 h1{
+    font-size: 300%;
+    margin: 0;
+} h2{
+    font-size: 200%;
+    margin: 7px;
+} h3{
+    font-size: 150%;
+    margin: 7px;
+}
+p{
+    margin-bottom: 50px;
+}
+.m1 .readmore{
+    border-color:#fff ;
+    border-style: solid;
+    padding: 8px 25px ;
+    color: #fff;
+    text-decoration: none;
+    border-width: 1px;
+}
+
+.slider{
+width: auto;
+}
+.slider .figure{
+    position: relative;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+     
+}
+
+.slider .figure .m1{
+    float: left;
+    width: 10%;
+    
+}
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    0%{
+        left: -100;
+    }
+    
+}
+
+div .background2{
+    position: relative;
+    background-image: url(images/us-bg.jpg);
+    width: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat,repeat;
+    background-size: cover;
+}
+
+.box2{
+    width: 30%;
+    position: absolute;
+    text-align: center;
+    margin: 100px 0px 0px 500px;
+    color:#fff;
+    display: block;
+
+}
+.why{
+    display: block;
+}
+.h1heading{
+    margin-bottom: 0;
+}
+.redbox{
+    width: 50px;
+    height: 5px;
+    margin: 2px 0px 0px 220px;
+    background-color: red;
+    background-repeat: no-repeat;
+}
+.page{
+    display: block;
+}
+
+.whychoosecategory{
+    padding: absolute;
+    top: 0;
+    width: 85%;
+    margin-top: 10%;
+    height: 350px;
+    margin: 15% 0px 0px 10%;
+    
+}
+.option1, .option2, .option3, .option4{
+    height: auto;
+    width: 450px;
+    display: block;
+    margin-right: 40px;
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+}
+
+
+div.background3{
+    background-image: url(images/healthy-bg.jpg);
+    width: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat,repeat;
+    background-size: cover;
+    
+}
+.textbox{
+    margin: auto;
+    padding: auto;
+    padding-top: 100px;
+    color: #fff;
+    text-align: center;
+    display: block;
+    width: 70%;
+    height: 400px;
+}
+
+.textbox .readmore{
+    border-color:#fff ;
+    border-style: solid;
+    padding: 8px 35px 8px 35px;
+    color: #fff;
+    text-decoration: none;
+    border-width: 1px;
+    margin: 50px;
+}
+
+.readmore:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+.background4{
+    background-image: url(images/trainer-bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat,repeat;
+    width: auto;
+    height: 800px;
+    background-size:cover ;
+    position: relative;
+}
+.box3{
+    width: 30%;
+    position: absolute;
+    text-align: center;
+    margin: 100px 0px 0px 500px;
+    color:#fff;
+    display: block;
+
+}
+#trainer{
+    border-radius: 16px;
+    position: relative;
+}
+#logo{
+    margin: 13px 0px 0px 43px;
+    padding: 0;
+}
+.optionbelow{
+    position: absolute;
+    bottom: 120px;
+    width: 230px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 55px;
+    margin-left: 90px;
+}
+div .background3{
+    position: relative;
+    background-image: url(images/healthy-bg.jpg);
+    width: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat,repeat;
+    background-size: cover;
+}
+
+.box3{
+    width: 30%;
+    position: absolute;
+    text-align: center;
+    margin: 100px 0px 0px 500px;
+    color:#fff;
+    display: block;
+
+}
+.why1{
+    display: block;
+}
+.h1heading1{
+    margin-bottom: 0;
+    margin-left: 50px;
+}
+.redbox1{
+    width: 50px;
+    height: 5px;
+    margin: 2px 0px 0px 220px;
+    background-color: red;
+    background-repeat: no-repeat;
+}
+
+
+.whychoosecategory1{
+    padding: absolute;
+    top: 0;
+    width: 85%;
+    margin-top: 10%;
+    height: 350px;
+    margin: 15% 0px 0px 10%;
+    
+}
+.option11, .option22, .option33{
+    height: auto;
+    width: 450px;
+    display: block;
+    text-align: center;
+    color: #fff;
+    padding: 0px;
+    border-radius: 50px;
+}
+
+
+.contact{
+    width: 50%;
+    background-image: url(images/contact-img.jpg);
+    background-size: cover;
+}
+.contact2{
+    display: block;
+    width: 50%;
+    color:#fff;
+    background-color: rgb(26, 26, 46);
+    padding: 100px 0px 5px 30px;
+}
+.contactform{
+    width: 100px;
+}
+
+#c1{
+    width: 500px;
+    height: 40px;
+    padding-left: 10px;
+    margin: 10px 10px 10px 0px;
+    
+}
+#c2{
+    width: 500px;
+    height: 100px;
+    padding-left: 10px;
+    margin: 10px 10px 10px 0px;
+}
+.send{
+    background-color: rgb(189, 68, 68);
+    padding: 13px 60px ;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bolder;
+    margin: 35px 0px 110px 350px;
+}
+.background6{
+    background-color: rgb(32, 32, 45);
+    width: auto;
+    height: auto;
+}
+.background6 .img1, .img2, .img3{
+    height: auto;
+    width: 70px;
+    margin: 0px 0px 0px 230px;
+    display: block;
+    text-align: center;
+    color: #fff;
+    padding: 30px 0px 0px 0px;
+}
+.below{
+    
+    margin: 30px 0px 30px 210px;
+}
+.background7{
+    padding-left: 550px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
